@@ -16,10 +16,8 @@ export default function App() {
   }
 
   function gameOverHandler() {
-    console.log('gameOverHandler called!');
     setGameIsOver(true);
   }
-  console.log('App render - userNumber:', userNumber, 'gameIsOver:', gameIsOver);
   
   let screen = <StartGameScreen onPickNumber={pickedNumberHandler} />;
 

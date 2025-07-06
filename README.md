@@ -31,10 +31,12 @@ react-native/
 │   └── GameOverScreen.js  # End screen with results
 ├── components/
 │   ├── ui/
-│   │   ├── PrimaryButton.js # Reusable button component
-│   │   └── Title.js         # Styled title component
+│   │   ├── PrimaryButton.js     # Reusable button component
+│   │   ├── Title.js             # Styled title component
+│   │   ├── Card.js              # Container card component
+│   │   └── InstructionText.js   # Styled instruction text component
 │   └── game/
-│       └── NumberContainer.js # Display container for numbers
+│       └── NumberContainer.js   # Display container for numbers
 ├── constants/
 │   └── colors.js          # App color theme
 └── assets/
@@ -94,6 +96,8 @@ react-native/
 ### Components
 - **PrimaryButton**: Reusable button with hover effects
 - **Title**: Styled text component with borders
+- **Card**: Container component with shadow and styling
+- **InstructionText**: Styled text component for game instructions
 - **NumberContainer**: Highlighted display for numbers
 
 ## 🧮 Game Algorithm
